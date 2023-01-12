@@ -1,0 +1,15 @@
+.header__lang-link{
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.75em;
+  text-align: right;
+  opacity: 1;
+  transition: 0.5s;
+  text-decoration: none;
+  color: white;
+}
+
+.header__lang-link:hover{
+  opacity: 0.6;
+  color: white;
+}

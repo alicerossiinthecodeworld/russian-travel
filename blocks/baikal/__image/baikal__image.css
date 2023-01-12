@@ -1,0 +1,33 @@
+.baikal__image{
+  min-height: 740px;
+  min-width: 1184px;
+  padding-bottom: 92px;
+  opacity: 1;
+}
+
+.baikal__image:hover{
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .baikal__image {
+    max-height: 640px;
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .baikal__image {
+    max-height: 480px;
+    max-width: 768px;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .baikal__image {
+    max-height: 200px;
+    max-width: 320px;
+    padding-bottom: 64px;
+  }
+}

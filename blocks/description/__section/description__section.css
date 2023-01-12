@@ -1,0 +1,7 @@
+.description__section{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  min-width: 984px;
+}

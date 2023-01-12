@@ -1,0 +1,5 @@
+.places__heading-column{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

@@ -1,0 +1,9 @@
+.description__title{
+  min-width: 690px;
+  margin: 0;
+  display: flex;
+  font-weight: 900;
+  font-size: 3.3rem;
+  line-height: 1.07em;
+  padding-bottom: 40px;
+}

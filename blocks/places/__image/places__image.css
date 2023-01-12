@@ -1,0 +1,20 @@
+.places__image{
+  display: flex;
+  max-width: 460px;
+  max-height: 460px;
+  padding-top: 48px;
+}
+
+@media screen and (max-width: 767px) {
+  .places__image {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__image {
+    max-width: 320px;
+    align-self: center;
+  }
+}
+

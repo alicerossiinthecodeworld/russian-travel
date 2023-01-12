@@ -1,0 +1,8 @@
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+  padding-left: 48px;
+  padding-right: 48px;
+  gap: 20px;
+}

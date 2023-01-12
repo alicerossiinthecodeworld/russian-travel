@@ -1,0 +1,9 @@
+.road__caption{
+  display: flex;
+  min-width: 984px;
+  text-align: start;
+  font-weight: 400;
+  font-size: 0.6rem;
+  line-height: 1.4em;
+  padding-bottom: 114px;
+}

@@ -1,0 +1,8 @@
+.places__info-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 288px;
+  max-width: 484px;
+}
