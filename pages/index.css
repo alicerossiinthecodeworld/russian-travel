@@ -10,8 +10,6 @@
 @import url("../blocks/header/__subtitle/header__subtitle.css");
 @import url("../blocks/road/road.css");
 @import url("../blocks/road/__main-pic/road_main-pic.css");
-@import url("../blocks/road/__trace/road__trace.css");
-@import url("../blocks/road/__image/road__image.css");
 @import url("../blocks/road/__caption/road__caption.css");
 @import url("../blocks/description/description.css");
 @import url("../blocks/description/__title/description__title.css");
