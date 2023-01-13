@@ -5,3 +5,17 @@
   min-width: 460px;
   text-align: start;
 }
+
+@media screen and (max-width: 768px) {
+  .places__heading{
+    max-width: 340px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__heading{
+    max-width: 288px;
+    align-self: center;
+  }
+}

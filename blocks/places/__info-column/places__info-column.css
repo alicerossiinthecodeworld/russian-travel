@@ -6,3 +6,15 @@
   min-width: 288px;
   max-width: 484px;
 }
+
+@media screen and (max-width: 767px) {
+  .places__info-column{
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__info-column{
+    max-width: 288px;
+  }
+}
