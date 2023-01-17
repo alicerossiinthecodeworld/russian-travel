@@ -1,6 +1,31 @@
 .road{
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
+  align-self: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .road{
+    max-height: 480px;
+    max-width: 928px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .road{
+    max-height: 480px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .road{
+    max-height: 200px;
+    max-width: 320px;
+  }
 }

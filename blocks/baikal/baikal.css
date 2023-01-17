@@ -1,6 +1,46 @@
 .baikal{
+  position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: content-box;
+  margin: 0 auto;
+  outline: red solid 1px;
+  max-width: 1184px;
+  min-height: 740px;
+  background-image: url("../../vendor/images/baikal__trains.jpg");
+  text-align: center;}
+
+@media screen and (max-width: 1024px) {
+  .baikal{
+    max-width: 1024px;
+    width: 100%;
+    min-height: 480px;
+    align-self: stretch;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .baikal{
+    max-width: 768px;
+    min-width: 320px;
+    min-height: 200px;
+    max-height: 420px;
+    align-self: stretch;
+    background-size:cover;
+    row-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .baikal {
+    max-height: 200px;
+    max-width: 288px;
+    max-height: 320px;
+    justify-content:flex-start;
+    row-gap: 16;
+  }
 }

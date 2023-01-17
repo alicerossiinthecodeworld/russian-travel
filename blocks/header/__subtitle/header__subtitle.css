@@ -10,13 +10,19 @@ padding-bottom: 64px;
 }
 
 @media screen and (max-width: 768px) {
-  .header__title {
+  .header__subtitle {
     max-width: 720px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .header__title {
+  .header__subtitle {
     max-width: 288px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    word-wrap: normal;
+    min-height: 40px;
+    padding-bottom: 40px;
   }
 }

@@ -1,6 +1,28 @@
 .description__text{
+  display: flex;
+  margin: 0;
+  padding: 0;
   max-width: 690px;
   font-weight: 400;
   font-size: 1rem;
   line-height: 163%;
+  word-wrap: normal;
+  min-height: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+  .description__text {
+    font-size: 16px;
+    max-width: 720px;
+    min-width: 288px;
+    width: calc(100%-32px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .description__text {
+    font-size: 16px;
+    max-width: 288px;
+    width: 100%;
+  }
 }

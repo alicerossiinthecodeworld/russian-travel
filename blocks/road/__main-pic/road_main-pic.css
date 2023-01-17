@@ -1,18 +1,32 @@
 .road__main-pic{
-  min-height: 615px;
-  min-width: 984px;
+  margin: 0 auto;
+  width: 100%;
+  object-fit: cover;
 }
 
+@media screen and (max-width: 1024px) {
+  .road__main-pic{
+    max-width: 928px;
+    min-width: 768px;
+    width: auto;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
-  .places__image {
+  .road__main-pic{
     max-height: 480px;
+    width: 100%;
     max-width: 768px;
+    min-width: 320px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .places__image {
+  .road__main-pic{
     max-height: 200px;
     max-width: 320px;
+    min-width: 288px;
+    padding-bottom: 8px
   }
 }

@@ -1,6 +1,5 @@
 .header__title{
   max-width: 720px;
-  padding-top:136px;
   padding-bottom: 32px;
   font-family: 'Inter';
   font-style: normal;
@@ -8,16 +7,24 @@
   font-size: 6rem;
   line-height: 1em;
   text-align: center;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .header__title {
     max-width: 720px;
+    min-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+    padding-bottom: 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header__title {
     max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+    padding-bottom: 16px;
   }
 }

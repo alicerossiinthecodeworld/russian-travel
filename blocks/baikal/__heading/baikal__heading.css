@@ -1,0 +1,35 @@
+.baikal__heading{
+  margin: 0;
+  z-index: 2;
+  display: inline-block;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  max-width: 560px;
+  width: 100%;
+  word-wrap: normal;
+  font-style: normal;
+  min-height: 152px;
+}
+
+@media screen and (max-width: 768px) {
+  .baikal__heading {
+    max-width: 560px;
+    min-height: 152px;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    padding-top: 115px;    
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .baikal__heading {
+    padding-top: 33px;
+    font-size: 16px;
+    max-width: 288px;
+    width: 100%;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

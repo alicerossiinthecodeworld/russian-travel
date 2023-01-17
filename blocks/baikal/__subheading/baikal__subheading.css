@@ -1,0 +1,31 @@
+.baikal__subheading{
+  margin: 0;
+  z-index: 2;
+  max-width: 360px;
+  text-align: center;
+  width: 100%;
+  word-wrap: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .baikal__subheading {
+    max-width: 320px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 115px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .baikal__subheading {
+    max-width: 288px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 33px;
+  }
+}

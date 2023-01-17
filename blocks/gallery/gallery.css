@@ -1,48 +1,56 @@
 .gallery{
-  margin: auto;
   display: grid;
-  width: 100%;
-  align-self: center;
+  max-width: 1084px;
+  grid-template-columns: repeat(4, 1fr);
+  outline: red solid 1px;
+  grid-gap: 16px;
+  box-sizing: content-box; 
+  overflow: hidden;
+  height: 100%;
+  border-bottom: 92px;
+  align-items: center;
   justify-content: center;
-  grid-template-columns: repeat(4, [col-start] minmax(284px, 1fr)[col-end]);
-  grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
-  padding-left: 48px;
-  padding-right: 48px;
-  gap: 16px;
 }
 
 @media screen and (min-width: 1281px) {
   .gallery{
-    grid-template-columns: repeat(4, [col-start] minmax(284px, 1fr)[col-end]);
-    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 14px;
+    width: auto;
   }
 }
 
 
 @media screen and (max-width: 1024px) {
   .gallery{
-    grid-template-columns: repeat(3, [col-start] minmax(284px, 1fr)[col-end]);
-    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
-    gap: 14px;
+    padding: 0;
+    max-width: 928px;
+    min-width: 720px;
+    grid-template-columns: repeat(3, 1fr);
+    object-fit: cover;
   }
 }
 
 @media screen and (max-width: 768px) {
   .gallery{
-    grid-template-columns: repeat(2, [col-start] minmax(284px, 1fr)[col-end]);
-    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
-    padding-left: 24px;
-    padding-right: 24px;
-    gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    max-width: 720px;
+    min-width: 288px;
+    width: 100%;
+    align-self: center;
   }
 }
 
 @media screen and (max-width: 320px) {
   .gallery{
-    grid-template-columns: minmax(284px, 1fr);
-    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
-    padding-left: 16px;
-    padding-right: 16px;
-    gap: 16px;
+    margin: auto;
+    margin-top: 664px;
+    grid-template-columns: [ col-start ] 1fr [ col-end ];
+    grid-template-rows: 216px;
+    grid-auto-flow: row;
+    grid-auto-rows: 216px;
+    grid-row-gap: 16px;
+    max-width: 288px;
   }
 }

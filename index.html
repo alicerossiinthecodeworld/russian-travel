@@ -2,23 +2,26 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествие по России</title>
 </head>
 <body class="page">
   <header class="header">
-    <img class="header__logo" src="./vendor/images/__logo.svg" alt="карта России"> 
-    <ul class="header__lang-links">
-      <li><a class="header__lang-link header__lang-link_lang_ru" href="#">ru</a></li>
-      <li><a class="header__lang-link" href="#">en</a></li>
-    </ul>
+    <div class="header__top">
+      <img class="header__logo" src="./vendor/images/__logo.svg" alt="карта России"> 
+      <ul class="header__lang-links">
+        <li><a class="header__lang-link header__lang-link_lang_ru" href="#">ru</a></li>
+        <li><a class="header__lang-link" href="#">en</a></li>
+      </ul>
+    </div>
     <h1 class="header__title">Путешествие по России</h1>
     <h2 class="header__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
+  </div>
   </header>
   <main class="content">
     <section class="road">
-      <img class="road__main-pic" src="./vendor/images/__image.svg" alt="путь по России">
+      <img class="road__main-pic" src="./vendor/images/train-lead.jpg" alt="путь по России">
       <p class="road__caption">ваша полка — верхняя</p>
     </section>
     <section class="description">
@@ -105,18 +108,24 @@
           В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
         </div> 
     </section>
-    <section class="baikal">
-      <a><img class="baikal__image" src="./vendor/images/baikal_dogs.svg" alt="до Байкала на собаках"></a>
-    </section>
+    <a>
+      <section class="baikal">
+        <div class="baikal__overlay"></div>
+        <h2 class="baikal__heading">До Байкала «на собаках»</h2>
+        <p class="baikal__subheading">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+            электричках.
+        </p>
+      </section>
+    </a>
   </main>
   <footer class="footer">
-   <div class="footer__link-zone">
-    <a class="footer__item" href="#">Карты</a>
-    <a class="footer__item" href="#">Погода</a>
-    <a class="footer__item" href="#">Расписание</a>
-    <a class="footer__item" href="#">Календарь</a>
-    <a class="footer__item" href="#">Путешествия</a>
-   </div>
-   <p class="footer__copyright">© 2023. Алиса Росси</p>
+    <ul class="footer__link-zone">
+      <li><a class="footer__item" href="#">Карты</a></li>
+      <li><a class="footer__item" href="#">Погода</a></li>
+      <li><a class="footer__item" href="#">Расписание</a></li>
+      <li><a class="footer__item" href="#">Календарь</a></li>
+      <li><a class="footer__item" href="#">Путешествия</a></li>
+    </ul>
+    <p class="footer__copyright">© 2023. Алиса Росси</p>
   </footer>
 </body>

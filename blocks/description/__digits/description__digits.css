@@ -1,11 +1,32 @@
 .description__digits{
+  display: inline-block;
   margin: 0;
   padding: 0;
-  min-width: 690px;
+  max-width: 690px;
   list-style-type:none;
   font-weight: 700;
   font-size: 0.75rem;
   line-height: 1.5em;
   text-align: start;
+}
 
+@media screen and (max-width: 768px) {
+  .description__digits {
+    font-size: 16px;
+    max-width: 720px;
+    min-width: 288px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .description__digits {
+    padding-top: 28px;
+    font-size: 16px;
+    max-width: 720px;
+    min-width: 288px;
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 64px;
+  }
 }

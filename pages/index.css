@@ -1,7 +1,9 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
+@import url("../blocks/content/content.css");
 @import url("../blocks/page/page.css");
 @import url("../blocks/header/header.css");
+@import url("../blocks/header/__top/header__top.css");
 @import url("../blocks/header/__logo/header__logo.css");
 @import url("../blocks/header/__lang-links/header__lang-links.css"); 
 @import url("../blocks/header/__lang-link/header__lang-link.css"); 
@@ -27,7 +29,9 @@
 @import url("../blocks/places/__link/places__link.css");
 @import url("../blocks/places/__text/places__text.css");
 @import url("../blocks/baikal/baikal.css");
-@import url("../blocks/baikal/__image/baikal__image.css");
+@import url("../blocks/baikal/__heading/baikal__heading.css");
+@import url("../blocks/baikal/__subheading/baikal__subheading.css");
+@import url("../blocks/baikal/__overlay/baikal__overlay.css");
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__item/footer__item.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
