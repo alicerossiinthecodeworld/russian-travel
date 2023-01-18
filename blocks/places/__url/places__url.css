@@ -10,9 +10,12 @@
 
 @media screen and (max-width: 320px) {
   .places__url{
-    padding: 0;
-    margin: 0;
+    margin: auto;
+    width: 90%;
     max-width: 288px;
-    align-self: center;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    padding-bottom: 12px;
   }
 }
