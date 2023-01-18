@@ -22,10 +22,3 @@
     align-self: center;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .page{
-    width: 100%;
-    align-self: center;
-  }
-}

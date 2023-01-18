@@ -18,8 +18,9 @@
 
 @media screen and (max-width: 768px) {
   .description__section{
+    margin: 0 auto;
     max-width: 720px;
-    width: calc(100%-32px);
+    width: 100%;
     min-width: 288px;
   }
 }

@@ -1,6 +1,6 @@
 .description__title{
   padding-top: 114px;
-  margin: 0;
+  margin: 0 auto;
   max-width: 690px;
   display: flex;
   width: fit-content;
@@ -8,6 +8,14 @@
   font-size: 3.3rem;
   line-height: 1.07em;
   padding-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .description__title{
+    max-width: 720px;
+    padding-top: 48px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -19,6 +27,5 @@
     min-width: none;
     font-size: 32px;
     line-height: 35px;
-
   }
 }

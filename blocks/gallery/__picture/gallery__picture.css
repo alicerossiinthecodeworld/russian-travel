@@ -1,8 +1,8 @@
 .gallery__picture{
   margin: 0;
   width: 100%;
+  height: 100%;
   object-fit: fit-content;
-  width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,7 +15,8 @@
 
 @media screen and (max-width: 768px) {
   .gallery__picture{
-    padding: 0;
+    margin: auto;
+    margin-top:188px;
     min-height: 264px;
     max-width: 352px;
   }

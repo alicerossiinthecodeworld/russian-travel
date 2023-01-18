@@ -20,6 +20,12 @@
   }
 }
 
+@media screen and (max-width: 430px) {
+  .baikal__subheading {
+    padding-bottom: 40px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .baikal__subheading {
     max-width: 288px;

@@ -20,6 +20,7 @@
   .road__caption{
     max-width: 768px;
     min-width:  288px;
+    padding: 0;
   }
 }
 

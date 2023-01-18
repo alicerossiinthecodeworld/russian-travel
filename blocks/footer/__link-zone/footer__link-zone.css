@@ -15,10 +15,19 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 430px) {
+  .footer__link-zone {
+    min-width: 288px;
+    max-width: 430px;
+    width: 100;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .footer__link-zone {
     flex-direction: column;
+    justify-content: flex-start;
     row-gap: 32px;
-    padding: 0;
   }
 }

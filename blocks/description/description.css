@@ -19,8 +19,8 @@
 
 @media screen and (max-width: 768px) {
   .description{
+    padding-top: 0px;
     padding-bottom: 88px;
-    padding-left: 24px;
     max-height: 480px;
     max-width: 720px;
     min-width: 288px;

@@ -10,12 +10,19 @@
   min-height: fit-content;
 }
 
+@media screen and (max-width: 1024px) {
+  .description__text {
+    padding-bottom: 33px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .description__text {
     font-size: 16px;
     max-width: 720px;
     min-width: 288px;
-    width: calc(100%-32px);
+    width: 100%;
+    
   }
 }
 

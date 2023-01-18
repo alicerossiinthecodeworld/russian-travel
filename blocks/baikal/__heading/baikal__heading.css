@@ -16,20 +16,30 @@
   .baikal__heading {
     max-width: 560px;
     min-height: 152px;
-    font-size: 72px;
-    line-height: 76px;
+    font-size: 4rem;
+    line-height: 1.1em;
     text-align: center;
-    padding-top: 115px;    
+    padding-top: 115px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .baikal__heading {
+    font-size: 56px;
+    line-height: 59px;
+}
+}
+
+@media screen and (max-width: 430px) {
+  .baikal__heading {
+    padding-top: 40px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .baikal__heading {
     padding-top: 33px;
-    font-size: 16px;
     max-width: 288px;
     width: 100%;
-    font-size: 32px;
-    line-height: 35px;
   }
 }

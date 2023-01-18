@@ -30,6 +30,7 @@
     min-height: 200px;
     max-height: 420px;
     align-self: stretch;
+    justify-content: space-around;
     background-size:cover;
     row-gap: 32px;
   }

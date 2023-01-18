@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 768px) {
   .gallery{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(288px,1fr));
     grid-column-gap: 16px;
     max-width: 720px;
     min-width: 288px;
