@@ -1,7 +1,6 @@
 .gallery__picture{
   margin: 0;
   width: 100%;
-  height: 100%;
   object-fit: fit-content;
 }
 
@@ -16,11 +15,11 @@
 @media screen and (max-width: 768px) {
   .gallery__picture{
     margin: auto;
-    margin-top:188px;
     min-height: 264px;
     max-width: 352px;
   }
 }
+
 
 @media screen and (max-width: 320px) {
   .gallery__picture{

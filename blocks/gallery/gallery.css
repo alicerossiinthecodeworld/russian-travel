@@ -1,15 +1,13 @@
 .gallery{
+  margin: 0 auto;
   display: grid;
   max-width: 1084px;
   grid-template-columns: repeat(4, 1fr);
-  outline: red solid 1px;
   grid-gap: 16px;
   box-sizing: content-box; 
   overflow: hidden;
   height: 100%;
-  border-bottom: 92px;
-  align-items: center;
-  justify-content: center;
+  padding-top: 132px;
 }
 
 @media screen and (min-width: 1281px) {
@@ -33,12 +31,32 @@
 
 @media screen and (max-width: 768px) {
   .gallery{
+    margin-top: 114px;
     grid-template-columns: repeat(auto-fit, minmax(288px,1fr));
     grid-column-gap: 16px;
     max-width: 720px;
     min-width: 288px;
     width: 100%;
     align-self: center;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .gallery{
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gallery{
+    margin-top: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gallery{
+    margin-top: 400px;
   }
 }
 

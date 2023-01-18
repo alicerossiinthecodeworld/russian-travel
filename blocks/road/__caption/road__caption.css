@@ -1,18 +1,22 @@
 .road__caption{
+  padding-top: 8px;
+  margin: 0 auto;
   display: flex;
-  align-self: flex-start;
-  min-width: 984px;
+  align-self: flex;
+  min-width:-start 984px;
   text-align: start;
   font-weight: 400;
   font-size: 0.6rem;
   line-height: 1.4em;
+  letter-spacing: 1.5px; 
+
 }
 
 @media screen and (max-width: 1024px) {
   .road__caption{
     max-width: 768px;
     min-width:  288px;
-    width:100%;
+    width: 90%;
   }
 }
 
@@ -20,14 +24,12 @@
   .road__caption{
     max-width: 768px;
     min-width:  288px;
-    padding: 0;
-  }
+    }
 }
 
 @media screen and (max-width: 320px) {
   .road__caption{
     padding-left: 16px;
-    letter-spacing: 1.5px;
     font-size: 10px;
     line-height: 14px;
     max-width: 320px;

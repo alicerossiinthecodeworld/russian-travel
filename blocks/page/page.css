@@ -1,10 +1,8 @@
 .page{
   display: flex;
   margin: 0 auto;
-  padding: 0;
   width: 100%;
   flex-direction: column;
-  outline: red solid 1px ;
   align-items: center;
   font-family: 'Inter', Arial, sans-serif;
   background-color: #2A2C2F;

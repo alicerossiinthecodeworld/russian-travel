@@ -1,6 +1,7 @@
 .road__main-pic{
   margin: 0 auto;
-  width: 100%;
+  min-width: 984px;
+  max-width: 984px;
   object-fit: cover;
 }
 

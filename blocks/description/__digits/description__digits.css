@@ -12,16 +12,23 @@
 
 @media screen and (max-width: 768px) {
   .description__digits {
-    font-size: 16px;
+    display: block;
     max-width: 720px;
     min-width: 288px;
     width: 100%;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .description__digits {
+    padding-bottom: 164px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .description__digits {
-    padding-top: 28px;
     font-size: 16px;
     max-width: 720px;
     min-width: 288px;

@@ -1,8 +1,7 @@
 .description__title{
-  padding-top: 114px;
-  margin: 0 auto;
-  max-width: 690px;
+  max-width: 984px;
   display: flex;
+  text-align: start;
   width: fit-content;
   font-weight: 900;
   font-size: 3.3rem;

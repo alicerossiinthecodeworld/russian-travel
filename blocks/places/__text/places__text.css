@@ -6,7 +6,8 @@
   font-size: 1.125rem;
   line-height: 163%;
   word-wrap: normal;
-  text-align: center;
+  text-align: start;
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 1024px) {
