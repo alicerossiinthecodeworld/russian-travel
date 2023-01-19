@@ -10,7 +10,6 @@
 
 @media screen and (max-width: 1024px) {
   .road{
-    max-height: 480px;
     max-width: 928px;
   }
 }
@@ -18,14 +17,12 @@
 
 @media screen and (max-width: 768px) {
   .road{
-    max-height: 480px;
     max-width: 768px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .road{
-    max-height: 200px;
     max-width: 320px;
   }
 }

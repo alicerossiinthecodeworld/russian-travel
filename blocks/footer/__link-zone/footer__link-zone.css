@@ -19,7 +19,7 @@
   .footer__link-zone {
     min-width: 288px;
     max-width: 430px;
-    width: 100;
+    width: 100%;
     flex-direction: row;
   }
 }

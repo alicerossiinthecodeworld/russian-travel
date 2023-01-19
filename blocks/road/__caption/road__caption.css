@@ -2,13 +2,13 @@
   padding-top: 8px;
   margin: 0 auto;
   display: flex;
-  align-self: flex;
-  min-width:-start 984px;
+  min-width: 984px;
   text-align: start;
   font-weight: 400;
   font-size: 0.6rem;
   line-height: 1.4em;
   letter-spacing: 1.5px; 
+  padding-bottom: 92px;
 
 }
 

@@ -11,7 +11,8 @@
   max-width: 1184px;
   min-height: 740px;
   background-image: url("../../vendor/images/baikal__trains.jpg");
-  text-align: center;}
+  text-align: center;
+  row-gap: 32px;}
 
 @media screen and (max-width: 1024px) {
   .baikal{
@@ -31,7 +32,6 @@
     align-self: stretch;
     justify-content: space-around;
     background-size:cover;
-    row-gap: 32px;
   }
 }
 
@@ -41,6 +41,6 @@
     max-width: 288px;
     max-height: 320px;
     justify-content:flex-start;
-    row-gap: 16;
+    row-gap: 16px;
   }
 }
