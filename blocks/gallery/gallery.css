@@ -29,6 +29,7 @@
   .gallery{
     padding: 0;
     max-width: 928px;
+    width: 90%;
     min-width: 720px;
     grid-template-columns: repeat(3,  minmax(260px, 1fr));
   }
