@@ -1,12 +1,19 @@
 .gallery__picture{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
   .gallery__picture{
-    max-width: 288px;
+    max-width: 250px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .gallery__picture{
+    max-width: 250px;
   }
 }
 

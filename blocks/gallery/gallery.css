@@ -3,17 +3,18 @@
   display: grid;
   max-width: 1184px;
   grid-template-columns: repeat(4,  minmax( 150px, 1fr));
-  grid-gap: 16px;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
   box-sizing: content-box; 
   height: 100%;
   padding-top: 132px;
   outline: red solid 1px;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 1281px) {
   .gallery{
     grid-template-columns: repeat(4, 1fr);
-    width: auto;
   }
 }
 
@@ -21,15 +22,17 @@
   .gallery{
     padding-top: 32px;
     grid-row-gap: 14px;
+    grid-column-gap: 14px;
     max-width: 1000px;
+    width: 90%;
   }
 }
+
 
 @media screen and (max-width: 1024px) {
   .gallery{
     padding: 0;
     max-width: 928px;
-    width: 90%;
     min-width: 720px;
     grid-template-columns: repeat(3,  minmax(260px, 1fr));
   }
