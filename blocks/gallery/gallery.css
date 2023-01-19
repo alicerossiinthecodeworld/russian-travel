@@ -31,15 +31,14 @@
 @media screen and (max-width: 1088px) {
   .gallery{
     max-width: 928px;
+    grid-template-columns: repeat(3,  minmax(260px, 1fr));
   }
 }
 
 @media screen and (max-width: 1024px) {
   .gallery{
     padding: 0;
-    max-width: 928px;
     min-width: 720px;
-    grid-template-columns: repeat(3,  minmax(260px, 1fr));
   }
 }
 
