@@ -31,6 +31,18 @@
 @media screen and (max-width: 1088px) {
   .gallery{
     padding: 0;
+    margin: auto;
+    grid-row-gap: 12px;
+    grid-column-gap: 12px;
+    min-width: 720px;
+    max-width: 928px;
+    grid-template-columns: repeat(3,  minmax(150px, 1fr));
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .gallery{
+    padding: 0;
     min-width: 720px;
     max-width: 928px;
     grid-template-columns: repeat(3,  minmax(150px, 1fr));
