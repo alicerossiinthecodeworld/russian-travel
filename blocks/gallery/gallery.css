@@ -25,12 +25,10 @@
   }
 }
 
-
-
 @media screen and (max-width: 1024px) {
   .gallery{
     padding: 0;
-    max-width: 928px;
+    max-width: 900px;
     min-width: 720px;
     grid-template-columns: repeat(3,  minmax( 1fr, 352px));
     object-fit: cover;
