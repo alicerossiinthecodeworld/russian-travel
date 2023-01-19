@@ -13,7 +13,6 @@
 @media screen and (min-width: 1281px) {
   .gallery{
     grid-template-columns: repeat(4, 1fr);
-    row-gap: 14px;
     width: auto;
   }
 }
@@ -21,6 +20,7 @@
 @media screen and (max-width: 1184px) {
   .gallery{
     padding-top: 32px;
+    grid-row-gap: 14px;
     max-width: 1000px;
   }
 }
@@ -28,9 +28,9 @@
 @media screen and (max-width: 1024px) {
   .gallery{
     padding: 0;
-    max-width: 900px;
+    max-width: 928px;
     min-width: 720px;
-    grid-template-columns: repeat(3,  minmax( 1fr, 300px));
+    grid-template-columns: repeat(3,  minmax(288px, 1fr));
     object-fit: cover;
   }
 }
