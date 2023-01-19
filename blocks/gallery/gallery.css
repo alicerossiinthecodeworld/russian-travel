@@ -28,6 +28,11 @@
   }
 }
 
+@media screen and (max-width: 1088px) {
+  .gallery{
+    max-width: 928px;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .gallery{
