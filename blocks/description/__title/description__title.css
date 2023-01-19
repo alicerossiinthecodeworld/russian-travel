@@ -1,7 +1,7 @@
 .description__title{
   margin: 0;
   max-width: 984px;
-  display: flex;
+  display: block;
   text-align: start;
   width: fit-content;
   font-weight: 900;
