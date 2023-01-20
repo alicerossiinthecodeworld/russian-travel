@@ -14,8 +14,10 @@
 @media screen and (max-width: 768px) {
   .baikal__subheading {
     max-width: 320px;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 18px;
+    line-height: 22px;
+
+text-align: center;
   }
 }
 
