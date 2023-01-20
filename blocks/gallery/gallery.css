@@ -37,16 +37,14 @@
     min-width: 720px;
     max-width: 900px;
     width: 90%;
-    grid-template-columns: repeat(3,  minmax(30%, 1fr));
+    grid-template-columns: repeat(3,  30%);
   }
 }
 
 @media screen and (max-width: 1040px) {
   .gallery{
     padding: 0;
-    min-width: 720px;
-    grid-template-columns: repeat(3,  minmax(150px, 1fr));
-
+    max-width: 800px;
   }
 }
 
