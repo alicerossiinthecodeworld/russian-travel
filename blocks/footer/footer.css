@@ -10,7 +10,7 @@
   outline: red solid 1px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1040px) {
   .footer{
     min-width: 484px;
     width: 90%;
