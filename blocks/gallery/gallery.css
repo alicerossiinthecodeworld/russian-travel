@@ -18,7 +18,6 @@
 
 @media screen and (max-width: 1184px) {
   .gallery{
-    padding-top: 32px;
     grid-row-gap: 14px;
     grid-column-gap: 14px;
     max-width: 1000px;
@@ -50,29 +49,9 @@
   }
 }
 
-
-@media screen and (max-width: 600px) {
-  .gallery{
-    margin-top: 200px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .gallery{
-    margin-top: 300px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .gallery{
-    margin-top: 400px;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .gallery{
     margin: auto;
-    margin-top: 400px;
     grid-template-columns: [ col-start ] 1fr [ col-end ];
     grid-template-rows: 216px;
     grid-auto-flow: row;
