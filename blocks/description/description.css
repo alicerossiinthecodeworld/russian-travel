@@ -28,7 +28,7 @@
 @media screen and (max-width: 320px) {
   .description {
     padding: 0;
-    max-height: 200px;
+    min-height: 200px;
     max-width: 328px;
     min-width: 0px;
   }
