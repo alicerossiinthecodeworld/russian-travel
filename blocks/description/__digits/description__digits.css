@@ -1,10 +1,10 @@
-.description__digits{
-  display: inline-block;
+.description__digits {
   margin: 0;
   padding: 0;
   max-width: 690px;
-  list-style-type:none;
+  list-style-type: none;
   font-weight: 700;
+  width: 100%;
   font-size: 0.75rem;
   line-height: 1.5em;
   text-align: start;
@@ -12,10 +12,8 @@
 
 @media screen and (max-width: 768px) {
   .description__digits {
-    display: block;
     max-width: 720px;
     min-width: 288px;
-    width: 100%;
     font-size: 12px;
     line-height: 18px;
   }
@@ -23,15 +21,12 @@
 
 @media screen and (max-width: 425px) {
   .description__digits {
-    padding-bottom: 164px;
+    padding-bottom: 0px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .description__digits {
-    font-size: 16px;
-    max-width: 720px;
-    min-width: 288px;
     font-size: 12px;
     line-height: 18px;
     padding-bottom: 64px;

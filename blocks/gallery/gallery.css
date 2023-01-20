@@ -7,7 +7,6 @@
   grid-column-gap: 16px;
   box-sizing: content-box; 
   height: 100%;
-  padding-top: 132px;
   object-fit: cover;
 }
 
@@ -42,7 +41,6 @@
 
 @media screen and (max-width: 768px) {
   .gallery{
-    margin-top: 114px;
     grid-template-columns: repeat(auto-fit, minmax(288px,1fr));
     grid-column-gap: 16px;
     max-width: 720px;
@@ -74,7 +72,7 @@
 @media screen and (max-width: 320px) {
   .gallery{
     margin: auto;
-    margin-top: 664px;
+    margin-top: 400px;
     grid-template-columns: [ col-start ] 1fr [ col-end ];
     grid-template-rows: 216px;
     grid-auto-flow: row;

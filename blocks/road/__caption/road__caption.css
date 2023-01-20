@@ -1,6 +1,5 @@
 .road__caption{
-  padding: 0;
-  padding-top: 8px;
+  padding: 8px 0px 0px;
   margin: 0 auto;
   display: flex;
   min-width: 984px;
@@ -9,8 +8,6 @@
   font-size: 0.6rem;
   line-height: 1.4em;
   letter-spacing: 1.5px; 
-  padding-bottom: 92px;
-
 }
 
 @media screen and (max-width: 1024px) {

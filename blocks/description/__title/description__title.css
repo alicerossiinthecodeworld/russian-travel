@@ -1,27 +1,25 @@
-.description__title{
+.description__title {
   margin: 0;
-  padding: 0;
+  padding: 0px 0px 40px;
   max-width: 984px;
   display: block;
   text-align: start;
   font-weight: 900;
-  font-size: 3.3rem;
-  line-height: 1.07em;
-  padding-bottom: 40px;
+  font-size: 54px;
+  line-height: 58px;
 }
 
 @media screen and (max-width: 768px) {
-  .description__title{
+  .description__title {
     max-width: 720px;
-    padding-top: 48px;
+    padding-top: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .description__title{
-    padding-top: 48px;
-    padding-bottom: 16px;
-    padding-left: 0;
+  .description__title {
+    padding-bottom: 40px;
+    padding-top: 64px;
     max-width: 288px;
     min-width: 0px;
     font-size: 32px;

@@ -1,34 +1,32 @@
-.description{
+.description {
   margin: 0 auto;
+  padding: 92px 0px 120px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-bottom: 92px;
   max-width: 984px;
-  max-height: 371px;
+  min-height: 371px;
 }
 
 @media screen and (max-width: 1024px) {
-  .description{
-    padding-top: 114px;
-    max-height: 480px;
+  .description {
+    margin-left: 48px;
+    min-height: 480px;
     max-width: 720px;
     min-width: 690px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .description{
-    padding-top: 0px;
-    padding-bottom: 88px;
-    max-height: 480px;
-    max-width: 720px;
+  .description {
+    margin-left: 0;
+    padding: 0px 0px 88px;
     min-width: 288px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .description{
+  .description {
     padding: 0;
     max-height: 200px;
     max-width: 328px;
