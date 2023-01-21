@@ -1,13 +1,12 @@
 .places__text {
-  margin: 0;
   padding: 0;
+  margin: 0;
   max-width: 484px;
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 163%;
   word-wrap: normal;
   text-align: start;
-  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -29,7 +28,7 @@
 
 @media screen and (max-width: 320px) {
   .places__text {
-    padding: 0;
+    padding-top:32px;
     text-align: start;
     font-size: 16px;
     max-width: 288px;
