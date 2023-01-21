@@ -1,4 +1,4 @@
-.places__image{
+.places__image {
   display: flex;
   max-width: 460px;
   max-height: 460px;
@@ -29,4 +29,3 @@
     min-width: 0px;
   }
 }
-

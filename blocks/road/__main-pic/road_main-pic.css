@@ -1,4 +1,4 @@
-.road__main-pic{
+.road__main-pic {
   margin: 0 auto;
   min-width: 984px;
   max-width: 984px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .road__main-pic{
+  .road__main-pic {
     max-width: 928px;
     min-width: 768px;
     width: auto;
@@ -15,7 +15,7 @@
 
 
 @media screen and (max-width: 768px) {
-  .road__main-pic{
+  .road__main-pic {
     max-height: 480px;
     width: 100%;
     max-width: 768px;
@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .road__main-pic{
+  .road__main-pic {
     max-height: 200px;
     max-width: 320px;
     min-width: 288px;

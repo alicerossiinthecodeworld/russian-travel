@@ -1,4 +1,4 @@
-.road{
+.road {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -9,20 +9,20 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .road{
+  .road {
     max-width: 928px;
   }
 }
 
 
 @media screen and (max-width: 768px) {
-  .road{
+  .road {
     max-width: 768px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .road{
+  .road {
     max-width: 320px;
   }
 }
