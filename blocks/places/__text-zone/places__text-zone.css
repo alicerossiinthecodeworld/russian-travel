@@ -1,0 +1,12 @@
+.places__text-zone{
+  display: flex;
+  flex-direction: column;
+  row-gap: 27px;
+  padding: 12px 0px
+}
+
+@media screen and (max-width: 768px) {
+  .places__text-zone {
+    row-gap: 25px;
+  }
+}

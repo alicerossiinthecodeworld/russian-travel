@@ -1,18 +1,24 @@
 .road__main-pic {
   margin: 0 auto;
-  min-width: 984px;
+  padding: 0;
   max-width: 984px;
+  min-width: 984px;
   object-fit: cover;
 }
 
 @media screen and (max-width: 1024px) {
   .road__main-pic {
-    max-width: 928px;
-    min-width: 768px;
-    width: auto;
+    margin: 0;
+    min-width: 928px;
   }
 }
 
+@media screen and (max-width: 928px) {
+  .road__main-pic {
+    margin: 0;
+    min-width: 768px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .road__main-pic {

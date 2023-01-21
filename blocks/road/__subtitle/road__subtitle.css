@@ -1,4 +1,4 @@
-.header__subtitle{
+.road__subtitle{
   padding: 0px 0px 64px;
   margin: 0;
   max-width: 640px;
@@ -11,14 +11,14 @@
 }
 
 @media screen and (max-width: 620px) {
-  .header__subtitle {
+  .road__subtitle {
     font-size: 16px;
     line-height: 20px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .header__subtitle {
+  .road__subtitle {
     max-width: 288px;
     font-weight: 400;
     font-size: 16px;
