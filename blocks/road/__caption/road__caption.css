@@ -5,9 +5,10 @@
   min-width: 984px;
   text-align: start;
   font-weight: 400;
-  font-size: 0.6rem;
-  line-height: 1.4em;
+  font-size: 10px;
+  line-height: 14px;
   letter-spacing: 1.5px; 
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,18 +19,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .road__caption{
-    max-width: 768px;
-    min-width:  288px;
-    }
-}
-
 @media screen and (max-width: 320px) {
   .road__caption{
     padding-left: 16px;
-    font-size: 10px;
-    line-height: 14px;
     max-width: 320px;
     min-width:  100%;
   }
