@@ -1,4 +1,4 @@
-.baikal__heading {
+.cover__heading {
   margin: 0;
   padding: 0;
   z-index: 2;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .baikal__heading {
+  .cover__heading {
     max-width: 560px;
     font-size: 4rem;
     line-height: 1.1em;
@@ -21,21 +21,21 @@
 }
 
 @media screen and (max-width: 560px) {
-  .baikal__heading {
+  .cover__heading {
     font-size: 56px;
     line-height: 59px;
   }
 }
 
 @media screen and (max-width: 430px) {
-  .baikal__heading {
+  .cover__heading {
     font-size: 32px;
     line-height: 35px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .baikal__heading {
+  .cover__heading {
     max-width: 288px;
     width: 100%;
   }

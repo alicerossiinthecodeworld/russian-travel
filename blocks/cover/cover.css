@@ -1,4 +1,4 @@
-.baikal {
+.cover {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -17,14 +17,14 @@
 }
 
 @media screen and (max-width: 1040px) {
-  .baikal {
+  .cover {
     max-width: 1024px;
     min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .baikal {
+  .cover {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -35,7 +35,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .baikal {
+  .cover {
     max-width: 288px;
     row-gap: 16px;
     min-height: 200px;

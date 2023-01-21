@@ -1,4 +1,4 @@
-.baikal__subheading {
+.cover__subheading {
   margin: 0;
   padding: 0;
   z-index: 2;
@@ -12,17 +12,16 @@
 }
 
 @media screen and (max-width: 768px) {
-  .baikal__subheading {
+  .cover__subheading {
     max-width: 320px;
     font-size: 18px;
     line-height: 22px;
-
-text-align: center;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .baikal__subheading {
+  .cover__subheading {
     max-width: 288px;
   }
 }
