@@ -9,7 +9,17 @@
   width: 100%;
   word-wrap: normal;
   font-style: normal;
+  color: white;
+  opacity: 1;
+  text-decoration: none;
+  
 }
+
+.cover__heading:hover {
+  opacity: 0.8;
+  color: white;
+}
+
 
 @media screen and (max-width: 768px) {
   .cover__heading {
@@ -24,6 +34,7 @@
   .cover__heading {
     font-size: 56px;
     line-height: 59px;
+
   }
 }
 
