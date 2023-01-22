@@ -7,9 +7,15 @@
   z-index: 1;
   background-color: rgba(42, 44, 47, 0.3);
   z-index: 1;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 32px;
+  text-decoration: none;
 }
 
-.cover__overlay:hover{
+.cover__overlay:hover {
   background-color: rgba(42, 44, 47, 0.8);
   z-index: 1;
 }

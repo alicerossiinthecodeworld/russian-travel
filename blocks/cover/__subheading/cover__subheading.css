@@ -13,22 +13,16 @@
   text-decoration: none;
 }
 
-.cover__subheading:hover {
-  opacity: 0.8;
-  color: white;
-}
-
 @media screen and (max-width: 768px) {
   .cover__subheading {
     max-width: 320px;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__subheading {
     max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
   }
 }

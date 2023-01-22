@@ -8,12 +8,6 @@
   list-style: none;
 }
 
-@media screen and (max-width: 768px) {
-  .footer__link-zone {
-    padding: 0;
-  }
-}
-
 @media screen and (max-width: 510px) {
   .footer__link-zone {
     flex-direction: column;

@@ -5,8 +5,8 @@
   list-style-type: none;
   font-weight: 700;
   width: 100%;
-  font-size: 0.75rem;
-  line-height: 1.5em;
+  font-size: 12px;
+  line-height: 18px;
   text-align: start;
 }
 
@@ -14,21 +14,11 @@
   .description__digits {
     max-width: 720px;
     min-width: 288px;
-    font-size: 12px;
-    line-height: 18px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .description__digits {
-    padding-bottom: 0px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .description__digits {
-    font-size: 12px;
-    line-height: 18px;
     padding-bottom: 64px;
   }
 }

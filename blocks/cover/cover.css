@@ -2,8 +2,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-repeat: no-repeat;
   background-position: center;
   box-sizing: content-box;
@@ -11,7 +9,6 @@
   max-width: 1184px;
   min-height: 740px;
   text-align: center;
-  row-gap: 32px;
   background-size: cover;
   background-image: url("../../images/baikal__trains.jpg");
 }
@@ -28,7 +25,6 @@
   .cover {
     width: 100%;
     margin: 0;
-    padding: 0;
     max-width: 768px;
     min-width: 320px;
     min-height: 480px;

@@ -12,21 +12,16 @@
   color: white;
   opacity: 1;
   text-decoration: none;
-  
+
 }
 
-.cover__heading:hover {
-  opacity: 0.8;
-  color: white;
-}
 
 
 @media screen and (max-width: 768px) {
   .cover__heading {
     max-width: 560px;
-    font-size: 4rem;
-    line-height: 1.1em;
-    text-align: center;
+    font-size: 72px;
+    line-height: 76px;    
   }
 }
 
@@ -38,16 +33,10 @@
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 470px) {
   .cover__heading {
     font-size: 32px;
     line-height: 35px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__heading {
-    max-width: 288px;
-    width: 100%;
+    max-width: 250px;
   }
 }

@@ -10,7 +10,8 @@
   transition: 0.5s;
   color: white;
   padding-bottom: 48px;
-
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .places__link:hover {
