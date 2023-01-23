@@ -15,8 +15,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .description {
+    max-width: 700px;
     padding: 0px 0px 88px;
     min-width: 288px;
   }
