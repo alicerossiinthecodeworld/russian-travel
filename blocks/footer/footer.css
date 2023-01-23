@@ -30,7 +30,6 @@
     padding-top: 64px;
     flex-direction: column;
     row-gap: 48px;
-    max-width: 600px;
     min-width: 288px;
   }
 }
