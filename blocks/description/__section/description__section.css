@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
   .description__section {
     max-width: 288px;
     min-width: 0px;
