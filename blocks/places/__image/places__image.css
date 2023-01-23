@@ -13,14 +13,14 @@
   }
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .places__image {
     max-width: 340px;
     align-self: end;
     margin: 0 auto;
   }
 }
+
 
 @media screen and (max-width: 660px) {
   .places__image {
