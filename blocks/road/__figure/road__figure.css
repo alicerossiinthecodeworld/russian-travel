@@ -1,8 +1,19 @@
-.road__figure{
+.road__figure {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-self: center;
   padding: 0;
-  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .road__figure {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .road__figure {
+    max-width: 320px;
+  }
 }
