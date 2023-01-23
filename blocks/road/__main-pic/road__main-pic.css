@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
   .road__main-pic {
     max-height: 200px;
     max-width: 320px;
