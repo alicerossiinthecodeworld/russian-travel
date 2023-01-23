@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 785px) {
   .places__heading{
     min-width: 288px;
     max-width: 340px;
