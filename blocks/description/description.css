@@ -1,5 +1,5 @@
 .description {
-    margin: 0 auto 92px;
+    margin: 0 auto;
     padding: 92px 0px 0px;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,6 @@
 
 @media screen and (max-width: 1024px) {
   .description {
-    margin-left: 48px;
     max-width: 720px;
     min-width: 690px;
   }
@@ -17,7 +16,7 @@
 
 @media screen and (max-width: 800px) {
   .description {
-    margin-left: 0px;
+    margin-left: 24px;
     max-width: 700px;
     padding: 0px 0px 88px;
     min-width: 288px;
@@ -26,6 +25,7 @@
 
 @media screen and (max-width: 350px) {
   .description {
+    margin: 0 auto;
     padding: 0;
     max-width: 288px;
     min-width: 0px;
