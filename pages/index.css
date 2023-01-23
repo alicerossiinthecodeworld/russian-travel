@@ -22,6 +22,7 @@
 @import url("../blocks/gallery/gallery.css");
 @import url("../blocks/gallery/__picture/gallery__picture.css");
 @import url("../blocks/places/places.css");
+@import url("../blocks/places/__website/places__website.css");
 @import url("../blocks/places/__item/places__item.css");
 @import url("../blocks/places/__heading/places__heading.css");
 @import url("../blocks/places/__image/places__image.css");

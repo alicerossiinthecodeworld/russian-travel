@@ -21,11 +21,22 @@
   }
 }
 
+@media screen and (max-width: 660px) {
+  .places__image {
+    max-width: 320px;
+    min-width: 0px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places__image {
+    max-width: 288px;
+  }
+}
+
+
 @media screen and (max-width: 320px) {
   .places__image {
     padding: 0;
-    max-width: 320px;
-    width: 100%;
-    min-width: 0px;
   }
 }

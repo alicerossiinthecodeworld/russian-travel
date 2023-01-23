@@ -1,0 +1,11 @@
+.places__website{
+  flex-direction: column;
+  row-gap: 12px;
+  padding: 0px 0px 48px;
+}
+
+@media screen and (max-width: 660px) {
+  .places__website {
+    padding-top: 32px;
+  }
+}
