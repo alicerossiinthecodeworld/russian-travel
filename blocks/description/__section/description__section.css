@@ -12,6 +12,7 @@
 
 @media screen and (max-width: 1024px) {
   .description__section {
+    margin: 0;
     min-width: 720px;
     max-width: fit-content;
   }
