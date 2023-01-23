@@ -19,7 +19,7 @@
 @media screen and (max-width: 785px) {
   .places__heading{
     min-width: 288px;
-    max-width: 340px;
+    max-width: 320px;
     font-size: 42px;
     line-height: 46px;
   }

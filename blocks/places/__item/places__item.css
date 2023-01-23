@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 785px) {
   .places__item {
-    grid-template-columns: 340px 1fr;
+    grid-template-columns: 320px 1fr;
   }
 }
 
