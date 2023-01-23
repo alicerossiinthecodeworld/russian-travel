@@ -16,7 +16,7 @@
 }
 
 
-@media screen and (max-width: 783px) {
+@media screen and (max-width: 800px) {
   .road {
     max-width: 768px;
   }
