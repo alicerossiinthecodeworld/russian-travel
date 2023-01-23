@@ -18,7 +18,7 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
   .gallery__picture {
     max-width: 288px;
   }
