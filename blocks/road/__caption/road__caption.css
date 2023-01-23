@@ -17,6 +17,15 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .road__caption {
+    margin: 0;
+    max-width: 300px;
+    padding-left: 16px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .road__caption {
     padding-left: 16px;
