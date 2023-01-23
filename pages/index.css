@@ -12,6 +12,7 @@
 @import url("../blocks/road/__subtitle/road__subtitle.css");
 @import url("../blocks/road/__main-pic/road__main-pic.css");
 @import url("../blocks/road/__caption/road__caption.css");
+@import url("../blocks/road/__figure/road__figure.css");
 @import url("../blocks/description/description.css");
 @import url("../blocks/description/__accent/description__accent.css");
 @import url("../blocks/description/__title/description__title.css");
@@ -21,6 +22,7 @@
 @import url("../blocks/gallery/gallery.css");
 @import url("../blocks/gallery/__picture/gallery__picture.css");
 @import url("../blocks/places/places.css");
+@import url("../blocks/places/__item/places__item.css");
 @import url("../blocks/places/__heading/places__heading.css");
 @import url("../blocks/places/__image/places__image.css");
 @import url("../blocks/places/__url/places__url.css");

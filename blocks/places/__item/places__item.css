@@ -1,0 +1,25 @@
+.places__item {
+  display: grid;
+  padding:0;
+  margin: 0 auto;
+  grid-template-columns: 460px 1fr;
+  column-gap: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__item {
+    grid-template-columns: 440px 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__item {
+    grid-template-columns: 340px 1fr;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .places__item {
+    grid-template-columns: 1fr;
+  }
+}
