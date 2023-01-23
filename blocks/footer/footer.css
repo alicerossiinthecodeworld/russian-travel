@@ -1,5 +1,6 @@
 .footer {
   margin: 0 auto;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -21,7 +22,7 @@
   .footer {
     padding-top: 88px;
     column-gap: 68px;
-    max-width: 720px;
+    max-width: 690px;
   }
 }
 
@@ -30,7 +31,7 @@
     padding-top: 64px;
     flex-direction: column;
     row-gap: 48px;
-    max-width: 630px;
+    max-width: 600px;
     min-width: 288px;
   }
 }
