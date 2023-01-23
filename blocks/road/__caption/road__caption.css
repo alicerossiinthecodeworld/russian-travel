@@ -29,8 +29,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
   .road__caption {
-    min-width: 100%;
+    min-width: 0px;
+    max-width: 288px;
   }
 }
