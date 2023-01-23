@@ -1,6 +1,7 @@
 .road__title{
   padding: 48px 0px 32px;
   margin: 0;
+  min-width: 288px;
   max-width: 720px;
   font-family: 'Inter';
   font-style: normal;
@@ -11,13 +12,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 768px) {
-  .road__title {
-    min-width: 288px;
-  }
-}
-
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 700px) {
   .road__title {
     font-size: 40px;
     line-height: 44px;
