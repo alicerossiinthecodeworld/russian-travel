@@ -2,23 +2,10 @@
   margin: 0 auto;
   padding: 0;
   width: 100%;
-  object-fit: cover;
+  height: 100%;
 }
 
-@media screen and (max-width: 1088px) {
-  .gallery__picture {
-    max-width: 300px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .gallery__picture {
-    max-width: 352px;
-  }
-}
-
-
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .gallery__picture {
     max-width: 288px;
   }

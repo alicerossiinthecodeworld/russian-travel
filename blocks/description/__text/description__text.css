@@ -4,23 +4,22 @@
   padding: 0;
   max-width: 690px;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 163%;
   word-wrap: normal;
 }
 
 @media screen and (max-width: 768px) {
   .description__text {
-    font-size: 16px;
     max-width: 720px;
+    width: inherit;
     min-width: 288px;
-    width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .description__text {
-    font-size: 16px;
     max-width: 288px;
+    min-width: 0px;
   }
 }

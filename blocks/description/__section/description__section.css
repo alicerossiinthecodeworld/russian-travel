@@ -4,28 +4,28 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  align-self: flex-start;
+  align-self: center;
   text-align: start;
-  width: 100%;
-  min-width: 984px;
 }
 
 @media screen and (max-width: 1024px) {
   .description__section {
-    min-width: 720px;
-    max-width: fit-content;
+    max-width: 720px;
+    width: inherit;
   }
 }
 
 @media screen and (max-width: 768px) {
   .description__section {
-    max-width: 690px;
+    margin: 0;
+    padding: 24px;
     min-width: 288px;
   }
 }
 
 @media screen and (max-width: 350px) {
   .description__section {
+    padding:0;
     max-width: 288px;
     min-width: 0px;
   }

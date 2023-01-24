@@ -5,10 +5,14 @@
     flex-direction: column;
     align-items: flex-start;
     max-width: 984px;
+    align-self: flex-start;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
   .description {
+    margin-right: 0px;
+    margin-left: 48px;
     max-width: 720px;
     min-width: 690px;
   }
@@ -16,10 +20,11 @@
 
 @media screen and (max-width: 800px) {
   .description {
-    margin-left: 24px;
-    max-width: 700px;
-    padding: 0px 0px 88px;
+    margin-left: 0px;
+    padding-top:0px;
+    padding-bottom: 65px;
     min-width: 288px;
+    max-width: 768px;
   }
 }
 

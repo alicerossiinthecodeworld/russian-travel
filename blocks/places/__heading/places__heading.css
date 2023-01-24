@@ -16,10 +16,10 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .places__heading{
     min-width: 288px;
-    max-width: 320px;
+    max-width: 340px;
     font-size: 42px;
     line-height: 46px;
   }
@@ -27,10 +27,11 @@
 
 @media screen and (max-width: 320px) {
   .places__heading{
+    padding: 0;
+    margin: 0 auto;
     max-width: 288px;
     align-self: center;
     font-size: 32px;
     line-height: 35px;
-    padding-bottom: 32px;
   }
 }

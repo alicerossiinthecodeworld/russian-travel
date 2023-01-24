@@ -2,28 +2,22 @@
   margin: 0 auto;
   padding: 0;
   max-width: 984px;
-  min-width: 984px;
   object-fit: cover;
-  width: 100%;
+  width: inherit;
 }
 
 @media screen and (max-width: 1024px) {
   .road__main-pic {
-    max-width: 928px;
     min-width: 768px;
+    max-width: 928px;
+    max-height: 580px;
   }
 }
 
-@media screen and (max-width: 928px) {
-  .road__main-pic {
-    min-width: 768px;
-  }
-}
 
 @media screen and (max-width: 783px) {
   .road__main-pic {
     max-height: 480px;
-    max-width: 768px;
     min-width: 320px;
   }
 }
@@ -33,6 +27,5 @@
     max-height: 200px;
     max-width: 320px;
     min-width: 288px;
-    padding-bottom: 8px
   }
 }

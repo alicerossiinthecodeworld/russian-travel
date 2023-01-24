@@ -4,6 +4,9 @@
   flex-direction: column;
   align-self: center;
   padding: 0;
+  width: 100%;
+  text-align: start;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 800px) {

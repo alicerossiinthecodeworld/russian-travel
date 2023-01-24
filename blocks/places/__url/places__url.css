@@ -3,10 +3,11 @@
   margin: 0;
   max-width: 456px;
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 12px;
   line-height: 170%;
   letter-spacing: 2px;
   color: #AAAAAA;
+  align-self: center;
 }
 
 @media screen and (max-width: 320px) {
@@ -14,9 +15,7 @@
     margin: auto;
     width: 100%;
     max-width: 288px;
-    font-size: 12px;
     line-height: 12px;
-    letter-spacing: 2px;
     padding-bottom: 12px;
   }
 }

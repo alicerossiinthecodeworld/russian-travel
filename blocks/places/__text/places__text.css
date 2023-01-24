@@ -1,12 +1,14 @@
 .places__text {
   padding: 0;
-  margin: 0;
   max-width: 484px;
+  width: fit-content;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
-  word-wrap: normal;
+  line-height: 29px;
+  margin: 0;
   text-align: start;
+  word-break: initial;
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,6 +22,7 @@
 @media screen and (max-width: 800px) {
   .places__text {
     font-size: 16px;
+    line-height: 26px;
     max-width: 352px;
     min-width: 288px;
   }
@@ -30,5 +33,6 @@
     text-align: start;
     max-width: 288px;
     min-width: 0px;
+    margin: auto;
   }
 }

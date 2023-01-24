@@ -14,14 +14,14 @@
 @media screen and (max-width: 1040px) {
   .footer {
     min-width: 484px;
-    max-width: 1024px;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 900px) {
   .footer {
     padding-top: 88px;
-    max-width: 768px;
+    max-width: 720px;
   }
 }
 

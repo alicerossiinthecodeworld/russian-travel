@@ -7,11 +7,11 @@
   box-sizing: content-box;
   padding: 0;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 1184px;
   min-height: 740px;
   text-align: center;
   background-size: cover;
-  background-image: url("../../images/baikal__trains.jpg");
+
 }
 
 

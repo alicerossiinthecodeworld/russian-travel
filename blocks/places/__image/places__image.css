@@ -2,7 +2,8 @@
   display: flex;
   max-width: 460px;
   max-height: 460px;
-  padding-top: 48px;
+  margin: 0;
+  padding: 0;
   width: 100%;
 }
 
@@ -16,18 +17,18 @@
 @media screen and (max-width: 850px) {
   .places__image {
     max-width: 340px;
-    align-self: end;
+    align-self: flex-start;
     margin: 0 auto;
   }
 }
 
-
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 720px) {
   .places__image {
     max-width: 320px;
     min-width: 0px;
   }
 }
+
 
 @media screen and (max-width: 425px) {
   .places__image {
@@ -38,6 +39,7 @@
 
 @media screen and (max-width: 320px) {
   .places__image {
-    padding: 0;
+    max-width: 320px;
+    height: 320px;
   }
 }

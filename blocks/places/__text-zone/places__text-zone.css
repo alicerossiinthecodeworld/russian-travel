@@ -1,8 +1,9 @@
 .places__text-zone{
   display: flex;
   flex-direction: column;
-  row-gap: 27px;
-  padding: 12px 0px
+  margin: 0;
+  padding: 0;
+  row-gap: 26px;
 }
 
 @media screen and (max-width: 768px) {
