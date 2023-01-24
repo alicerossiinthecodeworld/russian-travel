@@ -3,9 +3,6 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(auto-fit, 1fr);
   grid-row-gap: 80px;
-  justify-content: center;
-  align-items: center;
-  text-align: start;
   padding-bottom: 92px;
   margin: 0 auto;
   padding-top: 92px;
@@ -14,7 +11,6 @@
 
 @media screen and (max-width: 1040px) {
   .places {
-    width: 90%;
     max-width: 928px;
     grid-template-rows: 1fr;
   }
@@ -23,7 +19,7 @@
 @media screen and (max-width: 845px) {
   .places {
     padding-top: 88px;
-    max-width: 720px;
+    max-width: 750px;
   }
 }
 
@@ -40,9 +36,11 @@
 @media screen and (max-width: 320px) {
   .places {
     padding-top: 64px;
-    max-width: 288px;
+    max-width: 320px;
+    width: 100%;
     padding-bottom: 66px;
     padding-left: 0;
     padding-right: 0;
+    row-gap: 50px;
   }
 }
