@@ -4,18 +4,17 @@
   max-width: 456px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 170%;
+  line-height: 12px;
   letter-spacing: 2px;
   color: #AAAAAA;
   align-self: center;
+  padding-bottom: 12px;
 }
 
 @media screen and (max-width: 320px) {
   .places__url{
-    margin: auto;
+    margin: 0 auto;
     width: 100%;
     max-width: 288px;
-    line-height: 12px;
-    padding-bottom: 12px;
   }
 }

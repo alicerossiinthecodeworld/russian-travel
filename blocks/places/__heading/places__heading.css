@@ -27,7 +27,6 @@
 
 @media screen and (max-width: 320px) {
   .places__heading{
-    padding: 0;
     margin: 0 auto;
     max-width: 288px;
     align-self: center;

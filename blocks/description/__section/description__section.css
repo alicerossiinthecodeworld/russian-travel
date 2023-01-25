@@ -6,11 +6,13 @@
   align-items: flex-start;
   align-self: center;
   text-align: start;
+  max-width: 690px;
 }
 
 @media screen and (max-width: 1024px) {
   .description__section {
-    max-width: 720px;
+    margin: 0;
+    min-width: 690px;
     width: inherit;
   }
 }
@@ -18,8 +20,10 @@
 @media screen and (max-width: 768px) {
   .description__section {
     margin: 0;
-    padding: 24px;
+    max-width: inherit;
     min-width: 288px;
+    align-self: flex-start;
+    padding-left: 24px;
   }
 }
 

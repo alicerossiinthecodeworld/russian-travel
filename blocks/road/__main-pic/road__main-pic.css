@@ -8,7 +8,6 @@
 
 @media screen and (max-width: 1024px) {
   .road__main-pic {
-    min-width: 768px;
     max-width: 928px;
     max-height: 580px;
   }
@@ -17,6 +16,7 @@
 
 @media screen and (max-width: 783px) {
   .road__main-pic {
+    max-width: 768px;
     max-height: 480px;
     min-width: 320px;
   }
